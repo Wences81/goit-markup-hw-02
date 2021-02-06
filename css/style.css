@@ -1,0 +1,85 @@
+:root {
+  --white-text: rgba(255,255,255,1);
+  --white-text-op: rgba(255, 255, 255, 0.6);
+
+
+  --black-text: rgba(33, 33, 33, 1);
+  --black-text-logo: rgba(0, 0, 0, 1);
+  --black-background: rgba(47, 48, 58, 1);
+
+
+  
+  --blue-text: rgba(33, 150, 243, 1);
+
+
+  --grey-text: rgba(117, 117, 117, 1);
+  --grey-background: rgba(245, 244, 250, 1);
+
+}
+
+p {
+  color: var(--grey-text);   
+}
+
+ul {
+  list-style: none; 
+}
+
+.title {
+  color: var(--black-text);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--black-text);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+  color: var(--blue-text);
+}
+
+.auth-nav .link {
+  color: var(--grey-text);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--blue-text);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--black-background);
+}
+
+.hero .hero-title {
+  color: var(--white-text)
+}
+
+.button {
+  color: var(--white-text);
+  background-color: var(--blue-text);
+}
+
+/* Advantages */
+
+.advantages .adv-title {
+  color: var(--black-text);
+}
+
+/* Futer */
+
+.futer-nav {
+  background-color: var(--black-background);
+}
+
+.futer-address {
+  color: var(--white-text);
+}
+
+.futer-nav .link {
+  color: var(--white-text-op);
+}
